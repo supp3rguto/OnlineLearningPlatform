@@ -15,7 +15,7 @@ A motivação para desenvolver este software surgiu da necessidade de criar uma 
 ## 2. Padrões de Projeto
 
 ### Singleton
-*Descrição: O padrão **Singleton* garante que apenas uma instância da classe UserSession exista durante a execução do programa. Isso é útil para gerenciar o estado da sessão do usuário de forma centralizada.
+*Descrição:* O padrão *Singleton* garante que apenas uma instância da classe UserSession exista durante a execução do programa. Isso é útil para gerenciar o estado da sessão do usuário de forma centralizada.
 
 ```java
 package singleton;
@@ -45,7 +45,7 @@ public class UserSession {
 ```
 
 ### Factory Method
-*Descrição: O **Factory Method* é utilizado para criar diferentes tipos de usuários (Student, Teacher, Admin). Ele permite a criação de objetos de forma flexível e desacoplada.
+*Descrição:* O *Factory Method* é utilizado para criar diferentes tipos de usuários (Student, Teacher, Admin). Ele permite a criação de objetos de forma flexível e desacoplada.
 
 ```java
 package factory;
@@ -67,7 +67,7 @@ public class UserFactory {
 ```
 
 ### Strategy
-*Descrição: O padrão **Strategy* permite a troca de algoritmos de cálculo de pontuação sem alterar o código que os utiliza, promovendo a flexibilidade.
+*Descrição:* O padrão *Strategy* permite a troca de algoritmos de cálculo de pontuação sem alterar o código que os utiliza, promovendo a flexibilidade.
 
 ```java
 package strategy;
@@ -87,7 +87,7 @@ public class AdvancedScoring implements ScoringStrategy {
 ```
 
 ### Decorator
-*Descrição: O **Decorator* permite que funcionalidades sejam adicionadas dinamicamente a um objeto, sem alterar sua estrutura original. Isso é útil para estender as funcionalidades de um curso.
+*Descrição:* O *Decorator* permite que funcionalidades sejam adicionadas dinamicamente a um objeto, sem alterar sua estrutura original. Isso é útil para estender as funcionalidades de um curso.
 
 ```java
 package decorator;
@@ -110,7 +110,7 @@ public class CertificateDecorator extends CourseDecorator {
 ```
 
 ### Observer
-*Descrição: O **Observer* permite que objetos sejam notificados sobre eventos em outro objeto. No sistema, NotificationService gerencia a lista de observadores e notifica sobre novos cursos ou eventos.
+*Descrição:* O *Observer* permite que objetos sejam notificados sobre eventos em outro objeto. No sistema, NotificationService gerencia a lista de observadores e notifica sobre novos cursos ou eventos.
 
 ```java
 package observer;
